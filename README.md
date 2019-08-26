@@ -26,6 +26,10 @@ Our analysis of the authentication revealed the following issues:
 
   Wireshark Lua plugin that decodes the virtual media protocol
 
+* virt_media_tool
+
+  Early Python tool for sending unauthenticated requests.
+
 ## Packet Captures
 
 * virtual_media_iso_attach_detach.pcapng
