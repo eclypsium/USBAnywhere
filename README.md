@@ -22,16 +22,16 @@ Our analysis of the authentication revealed the following issues:
 
 ## Tools
 
-* wireshark-plugin
+* [wireshark-plugin](wireshark-plugin/)
 
   Wireshark Lua plugin that decodes the virtual media protocol
 
-* virt_media_tool
+* [virt_media_tool](virt_media_tool/)
 
   Early Python tool for sending unauthenticated requests.
 
 ## Packet Captures
 
-* virtual_media_iso_attach_detach.pcapng
+* [virtual_media_iso_attach_detach.pcapng](packet-captures/virtual_media_iso_attach_detach.pcapng)
 
   Capture of TCP/623 between Supermicro X10SLM-F and Java application served by its BMC.  Includes initial opening of Virtual Media window, attaching an ISO, detaching an ISO, and quitting the application.
