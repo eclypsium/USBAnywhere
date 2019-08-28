@@ -22,7 +22,9 @@ Our analysis of the authentication revealed the following issues:
 
 ## Presentations/Media
 
+* [Virtual Media Vulnerability in BMC Opens Servers to Remote Attack](https://eclypsium.com/2019/09/03/usbanywhere-bmc-vulnerability-opens-servers-to-remote-attack/)
 * [USBAnywhere slides](USBAnywhere.pdf) from "Common BMC vulnerabilities and how to avoid repeating them" talk at Open Source Firmware Conference 2019
+* [USBAnywhere PoC Demo](https://youtu.be/8UI7oicMisY)
 
 ## Tools
 
