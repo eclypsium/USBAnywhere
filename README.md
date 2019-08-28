@@ -20,6 +20,10 @@ Our analysis of the authentication revealed the following issues:
 
     After a client has properly authenticated to the virtual media service and then disconnected, some of the service's internal state about that client is incorrectly left intact.  As the internal state is linked to the client's socket file descriptor number, a new client that happens to be assigned the same socket file descriptor number by the BMC's OS inherits this internal state.  In practice, this allows the new client to inherit the previous client's authorization even when the new client attempts to authenticate with incorrect credentials.
 
+## Presentations/Media
+
+* [USBAnywhere slides](USBAnywhere.pdf) from "Common BMC vulnerabilities and how to avoid repeating them" talk at Open Source Firmware Conference 2019
+
 ## Tools
 
 * [wireshark-plugin](wireshark-plugin/)
