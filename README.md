@@ -36,6 +36,10 @@ Our analysis of the authentication revealed the following issues:
 
   Early Python tool for sending unauthenticated requests.
 
+* [Facedancer backend](https://github.com/usb-tools/Facedancer/tree/usbanywhere_backend)
+
+  Used for PoC to attach virtual mass storage device via USBAnywhere.  `usbanywhere_backend` bracnch is under review for merging by upstream maintainer.
+
 ## Packet Captures
 
 * [virtual_media_iso_attach_detach.pcapng](packet-captures/virtual_media_iso_attach_detach.pcapng)
